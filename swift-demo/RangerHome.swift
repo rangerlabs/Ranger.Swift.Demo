@@ -46,7 +46,6 @@ struct RangerHome: View {
         }
 
         try RangerTrackerV1.configure(deviceId: deviceId, breadcrumbApiKey: retrievedRangerConfig.breadcrumbApiKey)
-        RangerTrackerV1.setApiBaseUrl(url: "https://rangerlabs-staging.io/api")
         RangerTrackerV1.requestWhenInUseAuthorization()
         RangerTrackerV1.trackStandardLocation(distanceFilter: CLLocationDistance(Int(retrievedRangerConfig.distanceFilter) ?? 0))
     }
@@ -100,7 +99,7 @@ struct RangerHome: View {
             .sheet(isPresented: $showingProfile) {
                 ConfigHost()
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

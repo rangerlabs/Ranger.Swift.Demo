@@ -13,7 +13,6 @@
 		DF1056B625A9544D0086A2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1056B525A9544D0086A2AB /* Preview Assets.xcassets */; };
 		DF1056D325A955710086A2AB /* ConfigHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056C725A955700086A2AB /* ConfigHost.swift */; };
 		DF1056D425A955710086A2AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056C825A955700086A2AB /* SceneDelegate.swift */; };
-		DF1056D525A955710086A2AB /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056CA25A955700086A2AB /* KeyboardResponder.swift */; };
 		DF1056D625A955710086A2AB /* RangerEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056CB25A955700086A2AB /* RangerEditor.swift */; };
 		DF1056D825A955710086A2AB /* ConfigSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056CD25A955710086A2AB /* ConfigSummary.swift */; };
 		DF1056D925A955710086A2AB /* RangerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1056CF25A955710086A2AB /* RangerConfig.swift */; };
@@ -34,7 +33,6 @@
 		DF1056C325A955430086A2AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DF1056C725A955700086A2AB /* ConfigHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigHost.swift; sourceTree = "<group>"; };
 		DF1056C825A955700086A2AB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF1056CA25A955700086A2AB /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		DF1056CB25A955700086A2AB /* RangerEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangerEditor.swift; sourceTree = "<group>"; };
 		DF1056CD25A955710086A2AB /* ConfigSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigSummary.swift; sourceTree = "<group>"; };
 		DF1056CF25A955710086A2AB /* RangerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangerConfig.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				DF1056D225A955710086A2AB /* RangerHome.swift */,
 				DF1056B025A9544C0086A2AB /* ContentView.swift */,
 				DF1056B725A9544D0086A2AB /* Info.plist */,
-				DF1056C925A955700086A2AB /* Helpers */,
 				DF1056B425A9544D0086A2AB /* Preview Content */,
 				DF1056B225A9544D0086A2AB /* Assets.xcassets */,
 			);
@@ -135,14 +132,6 @@
 				DF1056C325A955430086A2AB /* LICENSE */,
 			);
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		DF1056C925A955700086A2AB /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				DF1056CA25A955700086A2AB /* KeyboardResponder.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +254,6 @@
 				DF1056DB25A955710086A2AB /* PusherConfig.swift in Sources */,
 				DF1056D925A955710086A2AB /* RangerConfig.swift in Sources */,
 				DF1056D625A955710086A2AB /* RangerEditor.swift in Sources */,
-				DF1056D525A955710086A2AB /* KeyboardResponder.swift in Sources */,
 				DF1056FD25AA08D60086A2AB /* AppDelegate.swift in Sources */,
 				DF1056D425A955710086A2AB /* SceneDelegate.swift in Sources */,
 			);
@@ -406,6 +394,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "rangerlabs.swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -429,6 +418,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "rangerlabs.swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

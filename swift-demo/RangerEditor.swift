@@ -10,7 +10,6 @@ import SwiftUI
 import Combine
 
 struct RangerEditor: View {
-    @ObservedObject private var keyboard = KeyboardResponder()
     @Binding var rangerConfig: RangerConfig
     @Binding var pusherConfig: PusherConfig
     
@@ -49,7 +48,6 @@ struct RangerEditor: View {
                 Spacer()
             }
         }
-        .padding(.bottom, keyboard.currentHeight)
         .edgesIgnoringSafeArea(.bottom)
     }
 }
