@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.4.1)
+  - NWWebSocket (0.5.1)
+  - PusherSwift (9.1.1):
+    - NWWebSocket (~> 0.5.1)
+    - TweetNacl (~> 1.0.0)
+  - Ranger.Swift.ApiClientV1 (1.0.4):
+    - Alamofire (~> 5.2)
+  - Ranger.Swift.TrackerV1 (1.0.0):
+    - PusherSwift (~> 9.0)
+    - Ranger.Swift.ApiClientV1 (~> 1.0.4)
+  - TweetNacl (1.0.2)
+
+DEPENDENCIES:
+  - Ranger.Swift.TrackerV1
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NWWebSocket
+    - PusherSwift
+    - Ranger.Swift.ApiClientV1
+    - Ranger.Swift.TrackerV1
+    - TweetNacl
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  NWWebSocket: 8156fe77508d5b86ce46ef2df87cc0c228402b10
+  PusherSwift: fdf2ca6692234f49a630de5c69b3cdd70b7733ba
+  Ranger.Swift.ApiClientV1: 1b16ec950ac4d0886599bc750e699343960b87a5
+  Ranger.Swift.TrackerV1: ebb380ecfe8240b6af7f7cb184d6300fbe860e83
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
+
+PODFILE CHECKSUM: af0d5bbd5032948b35ce0eb4de628292ccf32438
+
+COCOAPODS: 1.10.0

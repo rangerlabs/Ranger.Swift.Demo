@@ -1,0 +1,6 @@
+framework module NWWebSocket {
+  umbrella header "NWWebSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

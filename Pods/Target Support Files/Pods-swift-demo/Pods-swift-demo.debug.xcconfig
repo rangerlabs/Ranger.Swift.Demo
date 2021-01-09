@@ -1,0 +1,15 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/NWWebSocket" "${PODS_CONFIGURATION_BUILD_DIR}/PusherSwift" "${PODS_CONFIGURATION_BUILD_DIR}/Ranger.Swift.ApiClientV1" "${PODS_CONFIGURATION_BUILD_DIR}/Ranger.Swift.TrackerV1" "${PODS_CONFIGURATION_BUILD_DIR}/TweetNacl"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NWWebSocket/NWWebSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PusherSwift/PusherSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Ranger.Swift.ApiClientV1/Ranger_Swift_ApiClientV1.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Ranger.Swift.TrackerV1/Ranger_Swift_TrackerV1.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TweetNacl/TweetNacl.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "CFNetwork" -framework "Foundation" -framework "NWWebSocket" -framework "PusherSwift" -framework "Ranger_Swift_ApiClientV1" -framework "Ranger_Swift_TrackerV1" -framework "TweetNacl"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+SWIFT_INCLUDE_PATHS = $(inherited) $(PODS_ROOT)/TweetNacl/Sources
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

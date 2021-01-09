@@ -1,0 +1,6 @@
+framework module Ranger_Swift_ApiClientV1 {
+  umbrella header "Ranger.Swift.ApiClientV1-umbrella.h"
+
+  export *
+  module * { export * }
+}

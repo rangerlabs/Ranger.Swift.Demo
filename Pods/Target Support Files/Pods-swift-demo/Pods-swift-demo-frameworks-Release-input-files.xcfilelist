@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-swift-demo/Pods-swift-demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/NWWebSocket/NWWebSocket.framework
+${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework
+${BUILT_PRODUCTS_DIR}/Ranger.Swift.ApiClientV1/Ranger_Swift_ApiClientV1.framework
+${BUILT_PRODUCTS_DIR}/Ranger.Swift.TrackerV1/Ranger_Swift_TrackerV1.framework
+${BUILT_PRODUCTS_DIR}/TweetNacl/TweetNacl.framework
