@@ -23,9 +23,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Ranger uses your location to support geofencing</string>
+	<string>Ranger uses your location to send Ranger Breadcrumbs to Ranger's servers to conceptualize and facilitate geofence testing and development. For more information, see https://rangerlabs.io.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Ranger uses your location to support geofencing</string>
+	<string>Ranger uses your location to send Ranger Breadcrumbs to Ranger's servers to conceptualize and facilitate geofence testing and development. For more information, see https://rangerlabs.io.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
